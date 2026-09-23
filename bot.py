@@ -396,7 +396,6 @@ async def on_ready():
     except Exception as e:
         print(f"❌ Erreur : {e}")
 
-
    if __name__ == "__main__":
     threading.Thread(target=run_flask).start()
     bot.run(os.getenv('DISCORD_TOKEN'))
